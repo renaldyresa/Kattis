@@ -2,7 +2,6 @@ while True :
     width = int(input())
     if width == 0 :
         break
-    hl = True
     hls1,hls2 = 0,0
     panjang = 0
     lebar = 0
@@ -15,7 +14,6 @@ while True :
             break
         if panjang + p <= width :
             panjang += p
-            hl = True
             if lebar < l :
                 lebar = l
         else :
